@@ -1,0 +1,40 @@
+- type: entity
+  parent: BaseMobSpeciesOrganic
+  id: BaseMobRatman
+  name: Urist McSqueaks
+  abstract: true
+  components:
+  - type: HumanoidAppearance
+    species: Ratman
+  - type: Hunger
+  - type: Icon # It will not have an icon in the adminspawn menu without this. Body parts seem fine for whatever reason.
+    sprite: Mobs/Species/Human/parts.rsi
+    state: full
+  - type: Thirst
+  - type: Butcherable
+    butcheringType: Spike
+    spawned:
+    - id: FoodMeatHuman
+      amount: 5
+  - type: ReplacementAccent
+    accent: ratman
+  - type: Speech
+    speechSounds: Lizard
+    speechVerb: Ratman
+  - type: MeleeWeapon
+    soundHit:
+      collection: AlienClaw
+    angle: 30
+    animation: WeaponArcClaw
+    damage:
+      types:
+        Slash: 5
+
+- type: entity
+  parent: BaseSpeciesDummy
+  id: MobRatmanDummy
+  noSpawn: true
+  description: A dummy ratman meant to be used in character setup.
+  components:
+  - type: HumanoidAppearance
+    species: Ratman

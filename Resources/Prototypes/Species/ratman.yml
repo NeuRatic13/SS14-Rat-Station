@@ -1,0 +1,9 @@
+- type: species
+  id: Ratman
+  name: species-name-ratman
+  roundStart: true
+  prototype: MobRatman
+  sprites: MobHumanSprites
+  markingLimits: MobHumanMarkingLimits
+  dollPrototype: MobRatmanDummy
+  skinColoration: HumanToned

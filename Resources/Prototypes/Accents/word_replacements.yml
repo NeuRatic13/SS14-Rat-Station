@@ -377,6 +377,18 @@
     accent-southern-words-5: accent-southern-words-replace-5
     accent-southern-words-6: accent-southern-words-replace-6
 
+- type: accent
+  id: ratman
+  wordReplacements:
+    accent-ratman-words-1: accent-ratman-words-replace-1
+    accent-ratman-words-2: accent-ratman-words-replace-2
+    accent-ratman-words-3: accent-ratman-words-replace-3
+    accent-ratman-words-4: accent-ratman-words-replace-4
+    accent-ratman-words-5: accent-ratman-words-replace-5
+    accent-ratman-words-6: accent-ratman-words-replace-6
+    accent-ratman-words-7: accent-ratman-words-replace-7
+    accent-ratman-words-8: accent-ratman-words-replace-8
+
 # For the chat sanitization system
 - type: accent
   id: chatsanitize

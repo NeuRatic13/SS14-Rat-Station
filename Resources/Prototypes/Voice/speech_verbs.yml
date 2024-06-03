@@ -1,4 +1,4 @@
-﻿- type: speechVerb
+- type: speechVerb
   id: Default
   name: chat-speech-verb-name-default
   speechVerbStrings:
@@ -164,3 +164,11 @@
   - chat-speech-verb-electricity-1
   - chat-speech-verb-electricity-2
   - chat-speech-verb-electricity-3
+
+- type: speechVerb
+  id: Ratman
+  name: chat-speech-verb-name-ratman
+  speechVerbStrings:
+  - chat-speech-verb-ratman-1
+  - chat-speech-verb-ratman-2
+  - chat-speech-verb-ratman-3
